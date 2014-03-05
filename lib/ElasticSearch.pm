@@ -7,7 +7,7 @@ use ElasticSearch::Error();
 use ElasticSearch::RequestParser;
 use ElasticSearch::Util qw(throw parse_params);
 
-our $VERSION = '0.67';
+our $VERSION = '0.68';
 our $DEBUG   = 0;
 
 #===================================
@@ -152,11 +152,11 @@ sub query_parser {
 
 =head1 NAME
 
-DEPRECATED: ElasticSearch - An API for communicating with ElasticSearch
+ElasticSearch - DEPRECATED: An API for communicating with ElasticSearch
 
 =head1 VERSION
 
-Version 0.67, tested against ElasticSearch server version 0.90.0.
+Version 0.68, tested against ElasticSearch server version 0.90.0.
 
 =head1 DEPRECATION
 
