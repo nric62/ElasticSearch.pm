@@ -7,7 +7,7 @@ use ElasticSearch::Error();
 use ElasticSearch::RequestParser;
 use ElasticSearch::Util qw(throw parse_params);
 
-our $VERSION = '0.66';
+our $VERSION = '0.67';
 our $DEBUG   = 0;
 
 #===================================
@@ -152,16 +152,17 @@ sub query_parser {
 
 =head1 NAME
 
-ElasticSearch - An API for communicating with ElasticSearch
+DEPRECATED: ElasticSearch - An API for communicating with ElasticSearch
 
 =head1 VERSION
 
-Version 0.66, tested against ElasticSearch server version 0.90.0.
+Version 0.67, tested against ElasticSearch server version 0.90.0.
 
 =head1 DEPRECATION
 
 This module is being deprecated in favour of the new official client
-L<Elasticsearch|https://metacpan.org/release/Elasticsearch>.
+L<Search::Elasticsearch|https://metacpan.org/release/Search::Elasticsearch>
+and will be removed from CPAN in 2015.
 
 =head1 DESCRIPTION
 

@@ -1,4 +1,10 @@
 Revision history for ElasticSearch
+
+0.67    2013-03-05
+
+        Deprecated the ElasticSearch namespace in favour of Search::Elasticsearch.
+        See https://github.com/elasticsearch/elasticsearch-perl/issues/20
+
 0.66    2013-09-24
         Deprecated in favour of the new Elasticsearch.pm
 
